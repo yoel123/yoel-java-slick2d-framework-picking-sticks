@@ -27,7 +27,7 @@ public class game_world extends yworld
 	@Override
 	public void yinit(GameContainer gc, StateBasedGame sbg) throws SlickException 
 	{
-		player p = new player(150.0f,50.0f,2.205f,"stick_picker.png");
+		player p = new player(150.0f,50.0f,0.205f,"stick_picker.png");
 		stick s = new stick(150.0f,150.0f,1.05f);
 		
 		add(p);
